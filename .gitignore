@@ -9,6 +9,7 @@ training_history.json
 tree.py
 
 # Python standard gitignore
+.idea
 *.py[cod]
 *$py.class
 *.so
