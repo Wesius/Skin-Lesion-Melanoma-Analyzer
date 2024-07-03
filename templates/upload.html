@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Upload Image</title>
+</head>
+<body>
+    <h1>Upload an image for classification</h1>
+    <h3>Note that the skin lesion should take up the majority of the frame for most accurate results</h3>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    <div id="result"></div>
+
+    <script>
+        const form = document.querySelector('form');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const response = await fetch('/', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+            document.getElementById('result').textContent = data.result || data.error;
+        });
+    </script>
+</body>
+</html>
