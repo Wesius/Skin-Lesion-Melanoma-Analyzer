@@ -37,6 +37,7 @@ This project implements a deep learning-based system for classifying skin lesion
 10. [Changelog](#changelog)
 11. [License](#license)
 12. [Contact Information](#contact-information)
+13. [Disclaimers](#disclaimers)
 
 ## Installation
 
@@ -44,7 +45,7 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Wesius/skin-lesion-classification.git
+   git clone https://github.com/Wesius/Skin-Lesion-Melanoma-Analyzer.git
    cd skin-lesion-classification
    ```
 
@@ -148,7 +149,7 @@ This script handles data loading, splitting, augmentation, and preparation. Key 
 - `load_data()`: Loads image paths and labels from the CSV file
 - `split_data()`: Splits the dataset into train, validation, and test sets
 - `augment_melanoma_images()`: Applies data augmentation to balance the dataset
-- `balance_dataset()`: Ensures class balance in the dataset
+- `balance_dataset()`: Provides class balance in the dataset
 - `prepare_dataset()`: Copies and renames images to the prepared dataset directory
 
 ### `model.py`
@@ -204,7 +205,7 @@ The model uses the EfficientNetV2-S architecture, pretrained on ImageNet and fin
    - Employs early stopping to prevent overfitting
    - Uses a learning rate scheduler to adjust the learning rate during training
 
-3. **Evaluation**: The `evaluate_model()` function assesses the model's performance on the test set, providing accuracy and a detailed classification report.
+3. **Evaluation**: The `evaluate_model()` function assesses the model's performance on the test set to promote accuracy and create a detailed classification report.
 
 ### Analysis
 
@@ -317,7 +318,7 @@ Confusion Matrix:
 ## Performance Considerations
 
 - The use of mixed precision training and gradient accumulation helps in training larger models efficiently
-- EfficientNetV2-S provides a good balance between accuracy and computational requirements
+- EfficientNetV2-S provides a good balance between accuracy and computational requirements, although results may not be 100% accurate.
 - For inference on CPU, consider using a smaller model or quantization techniques
 
 ## Contributing
@@ -360,6 +361,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Disclaimers
+
+I am not a doctor or a health care provider or professional. I am a student and I am under 18 years old. I am sharing this because I am interested in the subject. I am not providing any medical advice or assurances that this software will make an accurate medical diagnosis.
+WITHOUT LIMITING THE MIT LICENSE TERMS, NOTHING ABOUT THIS SOFTWARE OR THE USE OF THIS SOFTWARE SHOULD BE CONSIDERED OR INTERPRETED AS MEDICAL ADVICE OR A MEDICAL DIAGNOSIS OR ANY OTHER ASSURANCE OR INDICATION THAT A PARTICULAR RESULT WILL BE OBTAINED. ANYONE USING THIS SOFTWARE SHOULD SEEK THE ADVICE OF A MEDICAL PROFESSIONAL BEFORE MAKING ANY MEDICAL DIAGNOSES OR DECISIONS.
 
 ## Contact Information
 
