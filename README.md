@@ -365,6 +365,7 @@ SOFTWARE.
 ## Disclaimers
 
 I am not a doctor or a health care provider or professional. I am a student and I am under 18 years old. I am sharing this because I am interested in the subject. I am not providing any medical advice or assurances that this software will make an accurate medical diagnosis.
+
 WITHOUT LIMITING THE MIT LICENSE TERMS, NOTHING ABOUT THIS SOFTWARE OR THE USE OF THIS SOFTWARE SHOULD BE CONSIDERED OR INTERPRETED AS MEDICAL ADVICE OR A MEDICAL DIAGNOSIS OR ANY OTHER ASSURANCE OR INDICATION THAT A PARTICULAR RESULT WILL BE OBTAINED. ANYONE USING THIS SOFTWARE SHOULD SEEK THE ADVICE OF A MEDICAL PROFESSIONAL BEFORE MAKING ANY MEDICAL DIAGNOSES OR DECISIONS.
 
 ## Contact Information
