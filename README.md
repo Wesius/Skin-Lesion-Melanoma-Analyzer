@@ -366,4 +366,4 @@ SOFTWARE.
 For questions or support, please contact:
 
 - Project Maintainer: Wes Griffin (wesgriffin32@gmail.com)
-- Project Repository: https://github.com/Wesius/skin-lesion-classification
+- Project Repository: [https://github.com/Wesius/skin-lesion-classification](https://github.com/Wesius/Skin-Lesion-Melanoma-Analyzer)
