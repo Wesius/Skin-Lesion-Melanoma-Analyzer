@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements a deep learning-based system for classifying skin lesions as either melanoma or non-melanoma. It utilizes state-of-the-art computer vision techniques and a convolutional neural network (CNN) architecture to analyze images of skin lesions and provide accurate diagnoses.
+This project implements a deep learning-based system for classifying skin lesions as either melanoma or non-melanoma. It utilizes state-of-the-art computer vision techniques and a convolutional neural network (CNN) architecture to analyze images of skin lesions and provide diagnoses.
 
 ### Key Features
 
@@ -366,4 +366,4 @@ SOFTWARE.
 For questions or support, please contact:
 
 - Project Maintainer: Wes Griffin (wesgriffin32@gmail.com)
-- Project Repository: [https://github.com/Wesius/skin-lesion-classification](https://github.com/Wesius/Skin-Lesion-Melanoma-Analyzer)
+- Project Repository: [https://github.com/Wesius/Skin-Lesion-Melanoma-Analyzer](https://github.com/Wesius/Skin-Lesion-Melanoma-Analyzer)
